@@ -7,7 +7,7 @@ def size(cms):
     else:
         return 'L'
 
-
+assert(size(5) == 'error')
 assert(size(37) == 'S')
 assert(size(40) == 'M')
 assert(size(43) == 'L')
