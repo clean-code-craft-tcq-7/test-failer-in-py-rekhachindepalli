@@ -1,4 +1,7 @@
 
+def index_to_pair_number(i,j):
+    return major_index * 5+ minor_index
+    
 def print_color_map():
     major_colors = ["White", "Red", "Black", "Yellow", "Violet"]
     minor_colors = ["Blue", "Orange", "Green", "Brown", "Slate"]
@@ -10,4 +13,7 @@ def print_color_map():
 
 result = print_color_map()
 assert(result == 25)
+assert(index_to_pair_number(0,0)==1)
+assert(index_to_pair_number(0,1)==2)
+assert(index_to_pair_number(1,0)==6)
 print("All is well (maybe!)")
